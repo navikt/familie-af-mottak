@@ -121,7 +121,7 @@ object SøknadTilGenereltFormatMapper {
                 return listOf(Feltformaterer.mapEndenodeTilUtskriftMap(entitet))
             }
             if (entitet.label == "Barna dine") {
-                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.TABELL_BARN))
+                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.lagTabellVariant("Navn", "Barn")))
             }
             if (entitet.label == "Vedlegg") {
                 return listOf(feltlisteMap(entitet.label, list, VisningsVariant.VEDLEGG))
@@ -172,7 +172,22 @@ object SøknadTilGenereltFormatMapper {
     private fun konstruktørparametere(entity: Any) = entity::class.primaryConstructor?.parameters ?: emptyList()
 }
 
-enum class VisningsVariant {
-    TABELL_BARN,
+enum class VisningsVariant(
+    var stringSomSkalSjekkesPå: String? = null,
+    var tabellTittel: String? = null,
+) {
+    TABELL_BARN("Navn", "Barn"),
     VEDLEGG,
+    ;
+
+    companion object {
+        fun lagTabellVariant(
+            stringSomSkalSjekkesPå: String,
+            tabellTittel: String,
+        ): VisningsVariant =
+            TABELL_BARN.apply {
+                TABELL_BARN.stringSomSkalSjekkesPå = stringSomSkalSjekkesPå
+                TABELL_BARN.tabellTittel = tabellTittel
+            }
+    }
 }
