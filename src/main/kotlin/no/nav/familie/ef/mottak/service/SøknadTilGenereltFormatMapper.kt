@@ -121,7 +121,10 @@ object SøknadTilGenereltFormatMapper {
                 return listOf(Feltformaterer.mapEndenodeTilUtskriftMap(entitet))
             }
             if (entitet.label == "Barna dine") {
-                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.lagTabellVariant("Navn", "Barn")))
+                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.TABELLER_2_KOLONNER("Navn", "Barn")))
+            }
+            if (entitet.label == "Om arbeidsforholdet ditt") {
+                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.TABELLER_2_KOLONNER("Navn på arbeidssted", "Arbeidsforhold")))
             }
             if (entitet.label == "Vedlegg") {
                 return listOf(feltlisteMap(entitet.label, list, VisningsVariant.VEDLEGG))
@@ -172,22 +175,14 @@ object SøknadTilGenereltFormatMapper {
     private fun konstruktørparametere(entity: Any) = entity::class.primaryConstructor?.parameters ?: emptyList()
 }
 
-enum class VisningsVariant(
-    var stringSomSkalSjekkesPå: String? = null,
-    var tabellTittel: String? = null,
-) {
-    TABELL_BARN("Navn", "Barn"),
-    VEDLEGG,
-    ;
+sealed class VisningsVariant {
+    object VEDLEGG : VisningsVariant()
 
-    companion object {
-        fun lagTabellVariant(
-            stringSomSkalSjekkesPå: String,
-            tabellTittel: String,
-        ): VisningsVariant =
-            TABELL_BARN.apply {
-                TABELL_BARN.stringSomSkalSjekkesPå = stringSomSkalSjekkesPå
-                TABELL_BARN.tabellTittel = tabellTittel
-            }
+    @Suppress("ktlint:standard:class-naming")
+    data class TABELLER_2_KOLONNER(
+        val stringSomSkalSjekkesPå: String,
+        val tabellTittel: String,
+    ) : VisningsVariant() {
+        override fun toString(): String = "TABELLER_2_KOLONNER, $stringSomSkalSjekkesPå, $tabellTittel"
     }
 }
