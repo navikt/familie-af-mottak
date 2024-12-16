@@ -176,7 +176,9 @@ object SøknadTilGenereltFormatMapper {
 }
 
 sealed class VisningsVariant {
-    object VEDLEGG : VisningsVariant()
+    object VEDLEGG : VisningsVariant() {
+        override fun toString() = "VEDLEGG"
+    }
 
     @Suppress("ktlint:standard:class-naming")
     data class TABELLER_2_KOLONNER(

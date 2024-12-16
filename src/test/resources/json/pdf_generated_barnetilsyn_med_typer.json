@@ -378,6 +378,7 @@
         },
         {
           "label": "Om arbeidsforholdet ditt",
+          "visningsVariant":"TABELLER_2_KOLONNER, Navn på arbeidssted, Arbeidsforhold",
           "verdiliste": [
             {
               "label": "Navn på arbeidsgiveren",

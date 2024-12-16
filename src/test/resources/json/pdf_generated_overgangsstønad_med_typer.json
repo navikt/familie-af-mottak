@@ -218,7 +218,7 @@
     },
     {
       "label":"Barna dine",
-      "visningsVariant":"TABELL_BARN",
+      "visningsVariant":"TABELLER_2_KOLONNER, Navn, Barn",
       "verdiliste":[
         {
           "label":"Barnets fulle navn, hvis dette er bestemt",
@@ -341,6 +341,7 @@
         },
         {
           "label":"Om arbeidsforholdet ditt",
+          "visningsVariant":"TABELLER_2_KOLONNER, Navn på arbeidssted, Arbeidsforhold",
           "verdiliste":[
             {
               "label":"Navn på arbeidsgiveren",
