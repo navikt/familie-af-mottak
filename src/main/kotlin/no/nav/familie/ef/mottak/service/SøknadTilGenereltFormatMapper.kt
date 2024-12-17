@@ -11,6 +11,8 @@ import no.nav.familie.kontrakter.ef.søknad.SøknadOvergangsstønad
 import no.nav.familie.kontrakter.ef.søknad.SøknadSkolepenger
 import no.nav.familie.kontrakter.ef.søknad.Søknadsfelt
 import no.nav.familie.kontrakter.felles.Fødselsnummer
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.Month
@@ -40,13 +42,17 @@ object SøknadTilGenereltFormatMapper {
             Long::class,
         )
 
+    val log: Logger = LoggerFactory.getLogger(this::class.java)
+
     fun mapOvergangsstønad(
         søknad: SøknadOvergangsstønad,
         vedleggTitler: List<String>,
     ): Map<String, Any> {
         val finnFelter = finnFelter(søknad)
         val vedlegg = feltlisteMap("Vedlegg", listOf(Feltformaterer.mapVedlegg(vedleggTitler)), VisningsVariant.VEDLEGG)
-        return feltlisteMap("Søknad om overgangsstønad (NAV 15-00.01)", finnFelter + vedlegg)
+        val test = feltlisteMap("Søknad om overgangsstønad (NAV 15-00.01)", finnFelter + vedlegg)
+        log.info("ÆÆÆ " + test.toString())
+        return test
     }
 
     fun mapBarnetilsyn(
@@ -125,6 +131,9 @@ object SøknadTilGenereltFormatMapper {
             }
             if (entitet.label == "Om arbeidsforholdet ditt") {
                 return listOf(feltlisteMap(entitet.label, list, VisningsVariant.TABELLER_2_KOLONNER("Navn på arbeidssted", "Arbeidsforhold")))
+            }
+            if (entitet.label == "Utenlandsopphold") {
+                return listOf(feltlisteMap(entitet.label, list, VisningsVariant.TABELLER_2_KOLONNER("Fra", "Utenlandsopphold")))
             }
             if (entitet.label == "Vedlegg") {
                 return listOf(feltlisteMap(entitet.label, list, VisningsVariant.VEDLEGG))
