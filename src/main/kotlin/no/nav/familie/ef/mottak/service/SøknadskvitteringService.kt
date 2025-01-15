@@ -9,6 +9,7 @@ import no.nav.familie.ef.mottak.repository.domain.EncryptedFile
 import no.nav.familie.ef.mottak.repository.domain.Søknad
 import no.nav.familie.ef.mottak.repository.domain.Vedlegg
 import no.nav.familie.ef.mottak.repository.util.findByIdOrThrow
+import no.nav.familie.kontrakter.ef.søknad.SkjemaForArbeidssøker
 import no.nav.familie.kontrakter.ef.søknad.SøknadBarnetilsyn
 import no.nav.familie.kontrakter.ef.søknad.SøknadMedVedlegg
 import no.nav.familie.kontrakter.ef.søknad.SøknadOvergangsstønad
@@ -52,6 +53,15 @@ class SøknadskvitteringService(
         val søknadDb = SøknadMapper.fromDto(søknad.søknad, true)
         val vedlegg = mapVedlegg(søknadDb.id, søknad.vedlegg)
         return motta(søknadDb, vedlegg)
+    }
+
+    @Transactional
+    fun mottaArbeidsøkerSkjema(skjemaForArbeidssøker: SkjemaForArbeidssøker): Kvittering {
+        val søknadDb = SøknadMapper.fromDto(skjemaForArbeidssøker)
+        val lagretSkjema = søknadRepository.insert(søknadDb)
+        taskProsesseringService.startPdfKvitteringTaskProsessering(lagretSkjema)
+        logger.info("Mottatt skjema med id ${lagretSkjema.id}")
+        return Kvittering(lagretSkjema.id, "Pdf-skjema lagret med id ${lagretSkjema.id} er registrert mottatt.")
     }
 
     private fun mapVedlegg(
