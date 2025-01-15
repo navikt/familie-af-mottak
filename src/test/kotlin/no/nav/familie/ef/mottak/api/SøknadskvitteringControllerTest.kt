@@ -27,7 +27,7 @@ internal class SøknadskvitteringControllerTest : IntegrasjonSpringRunnerTest() 
 
     @Test
     internal fun `Skal returnere 200 OK for å hente søknad med id`() {
-        val søknadPdfBytes = objectMapper.writeValueAsBytes(Testdata.søknadOvergangsstønad)
+        val søknadPdfBytes = objectMapper.writeValueAsBytes(Testdata.søknadOvergangsstønadNy)
         val søknad =
             søknadRepository.insert(
                 søknad(

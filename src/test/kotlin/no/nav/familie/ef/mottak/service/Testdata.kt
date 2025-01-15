@@ -85,7 +85,10 @@ internal object Testdata {
 
     val søknadOvergangsstønad =
         SøknadOvergangsstønad(
-            Søknadsfelt("detaljer", Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate())),
+            Søknadsfelt(
+                "detaljer",
+                Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate()),
+            ),
             Søknadsfelt("Søker", personalia()),
             Søknadsfelt("Opplysninger om adresse", adresseopplysninger()),
             Søknadsfelt("Detaljer om sivilstand", sivilstandsdetaljer()),
@@ -97,10 +100,30 @@ internal object Testdata {
             Søknadsfelt("Mer om situasjonen din", situasjon()),
             Søknadsfelt("Når søker du stønad fra?", stønadsstart()),
         )
+    val søknadOvergangsstønadNy =
+        SøknadOvergangsstønad(
+            Søknadsfelt(
+                "detaljer",
+                Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate()),
+            ),
+            Søknadsfelt("Søker", personalia()),
+            Søknadsfelt("Opplysninger om adresse", adresseopplysninger()),
+            Søknadsfelt("Detaljer om sivilstand", sivilstandsdetaljer()),
+            Søknadsfelt("Opphold i Norge", medlemskapsdetaljer()),
+            Søknadsfelt("Bosituasjonen din", bosituasjon()),
+            Søknadsfelt("Sivilstandsplaner", sivilstandsplaner()),
+            Søknadsfelt("Barna dine", listOf(barn())),
+            Søknadsfelt("Arbeid, utdanning og andre aktiviteter", aktivitet()),
+            Søknadsfelt("Mer om situasjonen din", situasjonNy()),
+            Søknadsfelt("Når søker du stønad fra?", stønadsstart()),
+        )
 
     val søknadOvergangsstønadMedTommeFelter =
         SøknadOvergangsstønad(
-            Søknadsfelt("detaljer", Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate())),
+            Søknadsfelt(
+                "detaljer",
+                Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate()),
+            ),
             Søknadsfelt("Søker", personalia()),
             Søknadsfelt("Opplysninger om adresse", adresseopplysninger()),
             Søknadsfelt("Detaljer om sivilstand", sivilstandsdetaljer()),
@@ -115,7 +138,10 @@ internal object Testdata {
 
     val søknadBarnetilsyn =
         SøknadBarnetilsyn(
-            Søknadsfelt("detaljer", Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate())),
+            Søknadsfelt(
+                "detaljer",
+                Innsendingsdetaljer(Søknadsfelt("mottat", mottat), mottat.minusDays(1).toLocalDate()),
+            ),
             Søknadsfelt("Søker", personalia()),
             Søknadsfelt("Opplysninger om adresse", adresseopplysninger()),
             Søknadsfelt("Detaljer om sivilstand", sivilstandsdetaljer()),
@@ -252,6 +278,39 @@ internal object Testdata {
                     "Jeg har barn som har behov for særlig tilsyn på grunn av fysiske, psykiske eller store sosiale problemer",
                 ),
                 listOf("123", "234", "345"),
+            ),
+            dokumentfelt("Legeerklæring"),
+            dokumentfelt("Legeattest for egen sykdom eller sykt barn"),
+            dokumentfelt("Avslag på søknad om barnehageplass, skolefritidsordning e.l."),
+            dokumentfelt("Dokumentasjon av særlig tilsynsbehov"),
+            dokumentfelt("Dokumentasjon av studieopptak"),
+            dokumentfelt("Læringskontrakt"),
+            Søknadsfelt("Når skal du starte i ny jobb?", LocalDate.of(2045, 12, 16)),
+            dokumentfelt("Dokumentasjon av jobbtilbud"),
+            Søknadsfelt("Når skal du starte utdanningen?", LocalDate.of(2025, 7, 28)),
+            Søknadsfelt(
+                "Har du sagt opp jobben eller redusert arbeidstiden de siste 6 månedene?",
+                "Ja, jeg har sagt opp jobben eller tatt frivillig permisjon (ikke foreldrepermisjon)",
+            ),
+            Søknadsfelt("Hvorfor sa du opp?", "Sjefen var dum"),
+            Søknadsfelt("Når sa du opp?", LocalDate.of(2014, 1, 12)),
+            dokumentfelt("Dokumentasjon av arbeidsforhold"),
+        )
+
+    @Suppress("LongLine")
+    private fun situasjonNy(): Situasjon =
+        Situasjon(
+            Søknadsfelt(
+                "Gjelder noe av dette deg?",
+                listOf(
+                    "Barnet mitt er sykt",
+                    "Jeg har søkt om barnepass, men ikke fått plass enda",
+                ),
+                listOf(
+                    "Barnet mitt er sykt",
+                    "Jeg har søkt om barnepass, men ikke fått plass enda",
+                    "Jeg har barn som har behov for særlig tilsyn på grunn av fysiske, psykiske eller store sosiale problemer",
+                ),
             ),
             dokumentfelt("Legeerklæring"),
             dokumentfelt("Legeattest for egen sykdom eller sykt barn"),

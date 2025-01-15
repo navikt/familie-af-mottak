@@ -12,7 +12,7 @@ import java.time.LocalDateTime
 class SøknadTilFeltMapTest {
     @Test
     fun `mapSøknadsfelter returnerer en map-struktur med feltene fra søknaden`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val mapSøknadsfelter = SøknadTilFeltMap.mapOvergangsstønad(søknad, emptyList())
 
@@ -25,7 +25,7 @@ class SøknadTilFeltMapTest {
 
     @Test
     fun `mapSøknadsfelter returnerer en map-struktur med typen TABELL`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val mapSøknadsfelter = SøknadTilFeltMap.mapOvergangsstønad(søknad, emptyList())
 
@@ -36,7 +36,7 @@ class SøknadTilFeltMapTest {
 
     @Test
     fun `mapSøknadsfelter returnerer en map-struktur med typen VEDLEGG`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val vedlegg =
             listOf(
@@ -53,7 +53,7 @@ class SøknadTilFeltMapTest {
 
     @Test
     fun `mapSøknadsfelter returnerer en map-struktur med feltene fra søknaden sammen med vedlegg`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val vedlegg = listOf("Dokumentasjon på at du er syk")
         val mapSøknadsfelter = SøknadTilFeltMap.mapOvergangsstønad(søknad, vedlegg)
@@ -88,7 +88,7 @@ class SøknadTilFeltMapTest {
 
     @Test
     fun `mapSøknadsfelter printer pdf for å se endringer i pdf-genereringen i PR - overgangsstønad`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val vedlegg =
             listOf(
@@ -141,7 +141,7 @@ class SøknadTilFeltMapTest {
 
     @Test
     fun `ekskluderer verdiliste når skalEkskluderes matcher`() {
-        val søknad = Testdata.søknadOvergangsstønad
+        val søknad = Testdata.søknadOvergangsstønadNy
 
         val vedlegg = listOf("Dokumentasjon på at du er syk")
         val mapSøknadsfelter = SøknadTilFeltMap.mapOvergangsstønad(søknad, vedlegg)

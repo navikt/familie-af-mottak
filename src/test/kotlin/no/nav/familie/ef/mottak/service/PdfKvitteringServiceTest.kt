@@ -29,7 +29,7 @@ class PdfKvitteringServiceTest {
     private val søknadOvergangsstønad =
         Søknad(
             id = søknadOvergangsstønadId,
-            søknadJson = createValidSøknadJson(Testdata.søknadOvergangsstønad),
+            søknadJson = createValidSøknadJson(Testdata.søknadOvergangsstønadNy),
             søknadPdf = null,
             fnr = "654",
             dokumenttype = DOKUMENTTYPE_OVERGANGSSTØNAD,

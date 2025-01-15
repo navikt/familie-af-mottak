@@ -132,12 +132,16 @@ object SøknadTilFeltMap {
                 return mapListeElementer(elementLabel, entitet.label, entitet.verdi as List<*>, list)
             }
             if (entitet.alternativer != null) {
-                val verdi =
-                    when (val verdi = entitet.verdi) {
-                        is List<*> -> verdi.joinToString("\n\n") { it.toString() }
-                        else -> verdi?.toString() ?: ""
+                val verdiliste = mutableListOf<VerdilisteElement>()
+                if (entitet.verdi is List<*> && entitet.alternativer is List<*>) {
+                    val alternativer = entitet.alternativer as List<String>
+                    val svar = entitet.verdi as List<String>
+                    alternativer.forEach { alternativ ->
+                        val verdi = if (svar.contains(alternativ)) "Ja" else "Nei"
+                        verdiliste.add(VerdilisteElement(alternativ, verdi = verdi))
                     }
-                return listOf(VerdilisteElement(entitet.label, visningsVariant = VisningsVariant.PUNKTLISTE.toString(), verdi = verdi, alternativer = entitet.alternativer?.joinToString(" / ")))
+                }
+                return listOf(VerdilisteElement(entitet.label, visningsVariant = VisningsVariant.PUNKTLISTE.toString(), verdiliste = verdiliste))
             }
             if (entitet.label == "Vedlegg") {
                 return listOf(

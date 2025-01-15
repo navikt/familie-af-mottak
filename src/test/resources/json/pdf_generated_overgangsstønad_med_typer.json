@@ -1,492 +1,492 @@
 {
-  "label": "Søknad om overgangsstønad (NAV 15-00.01)",
-  "verdiliste": [
+  "label":"Søknad om overgangsstønad (NAV 15-00.01)",
+  "verdiliste":[
     {
-      "label": "detaljer",
-      "verdiliste": [
+      "label":"detaljer",
+      "verdiliste":[
         {
-          "label": "mottat",
-          "verdi": "01.01.2020 00:00:00"
+          "label":"mottat",
+          "verdi":"01.01.2020 00:00:00"
         }
       ]
     },
     {
-      "label": "Søker",
-      "verdiliste": [
+      "label":"Søker",
+      "verdiliste":[
         {
-          "label": "Fødselsnummer",
-          "verdi": "03125462714"
+          "label":"Fødselsnummer",
+          "verdi":"03125462714"
         },
         {
-          "label": "Navn",
-          "verdi": "Kari Nordmann"
+          "label":"Navn",
+          "verdi":"Kari Nordmann"
         },
         {
-          "label": "Statsborgerskap",
-          "verdi": "Norsk"
+          "label":"Statsborgerskap",
+          "verdi":"Norsk"
         },
         {
-          "label": "Adresse",
-          "verdi": "Jerpefaret 5C\n1440 Drøbak\nNorge"
+          "label":"Adresse",
+          "verdi":"Jerpefaret 5C\n\n1440 Drøbak\n\nNorge"
         },
         {
-          "label": "Sivilstand",
-          "verdi": "Ugift"
+          "label":"Sivilstand",
+          "verdi":"Ugift"
         }
       ]
     },
     {
-      "label": "Opplysninger om adresse",
-      "verdiliste": [
+      "label":"Opplysninger om adresse",
+      "verdiliste":[
         {
-          "label": "Bor du på denne adressen?",
-          "verdi": "Nei"
+          "label":"Bor du på denne adressen?",
+          "verdi":"Nei"
         },
         {
-          "label": "Har du meldt adresseendring til folkeregisteret",
-          "verdi": "Ja"
+          "label":"Har du meldt adresseendring til folkeregisteret",
+          "verdi":"Ja"
         },
         {
-          "label": "DokumentasjonForAdresseendring",
-          "verdiliste": [
+          "label":"DokumentasjonForAdresseendring",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Detaljer om sivilstand",
-      "verdiliste": [
-        {
-          "label": "Er du gift uten at dette er formelt registrert eller godkjent i Norge?",
-          "verdi": "Ja"
-        },
-        {
-          "label": "giftIUtlandetDokumentasjon",
-          "verdiliste": [
-            {
-              "label": "harSendtInn",
-              "verdi": "Nei"
-            }
-          ]
-        },
-        {
-          "label": "Er du separert eller skilt uten at dette er formelt registrert eller godkjent i Norge?",
-          "verdi": "Ja"
-        },
-        {
-          "label": "separertEllerSkiltIUtlandetDokumentasjon",
-          "verdiliste": [
-            {
-              "label": "harSendtInn",
-              "verdi": "Nei"
-            }
-          ]
-        },
-        {
-          "label": "Har dere søkt om separasjon, søkt om skilsmisse eller reist sak for domstolen?",
-          "verdi": "Ja"
-        },
-        {
-          "label": "Når søkte dere eller reiste sak?",
-          "verdi": "23.12.2015"
-        },
-        {
-          "label": "Skilsmisse- eller separasjonsbevilling",
-          "verdiliste": [
-            {
-              "label": "harSendtInn",
-              "verdi": "Nei"
-            }
-          ]
-        },
-        {
-          "label": "Hva er grunnen til at du er alene med barn?",
-          "verdi": "Endring i samværsordning"
-        },
-        {
-          "label": "Erklæring om samlivsbrudd",
-          "verdiliste": [
-            {
-              "label": "harSendtInn",
-              "verdi": "Nei"
-            }
-          ]
-        },
-        {
-          "label": "Dato for samlivsbrudd",
-          "verdi": "03.10.2014"
-        },
-        {
-          "label": "Når flyttet dere fra hverandre?",
-          "verdi": "04.10.2014"
-        },
-        {
-          "label": "Når skjedde endringen / når skal endringen skje?",
-          "verdi": "17.04.2013"
-        }
-      ]
-    },
-    {
-      "label": "Opphold i Norge",
-      "verdiliste": [
-        {
-          "label": "Oppholder du deg i Norge?",
-          "verdi": "Ja"
-        },
-        {
-          "label": "Har du bodd i Norge de siste tre årene?",
-          "verdi": "Ja"
-        },
-        {
-          "label": "Utenlandsopphold",
-          "verdiliste": [
-            {
-              "label": "Fra",
-              "verdi": "04.12.2012"
-            },
-            {
-              "label": "Til",
-              "verdi": "18.12.2012"
-            },
-            {
-              "label": "I hvilket land oppholdt du deg?",
-              "verdi": "Spania"
-            },
-            {
-              "label": "Hvorfor bodde du i utlandet?",
-              "verdi": "Granca, Granca, Granca"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         }
       ]
     },
     {
-      "label": "Bosituasjonen din",
-      "verdiliste": [
+      "label":"Detaljer om sivilstand",
+      "verdiliste":[
         {
-          "label": "Deler du bolig med andre voksne?",
-          "verdi": "Ja, jeg har samboer og lever i et ekteskapslignende forhold"
+          "label":"Er du gift uten at dette er formelt registrert eller godkjent i Norge?",
+          "verdi":"Ja"
         },
         {
-          "label": "Om samboeren din",
-          "verdiliste": [
+          "label":"giftIUtlandetDokumentasjon",
+          "verdiliste":[
             {
-              "label": "Navn",
-              "verdi": "Bob Burger"
-            },
-            {
-              "label": "Fødselsdato",
-              "verdi": "18.02.1992"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Når flyttet dere sammen?",
-          "verdi": "12.08.2018"
+          "label":"Er du separert eller skilt uten at dette er formelt registrert eller godkjent i Norge?",
+          "verdi":"Ja"
+        },
+        {
+          "label":"separertEllerSkiltIUtlandetDokumentasjon",
+          "verdiliste":[
+            {
+              "label":"harSendtInn",
+              "verdi":"Nei"
+            }
+          ]
+        },
+        {
+          "label":"Har dere søkt om separasjon, søkt om skilsmisse eller reist sak for domstolen?",
+          "verdi":"Ja"
+        },
+        {
+          "label":"Når søkte dere eller reiste sak?",
+          "verdi":"23.12.2015"
+        },
+        {
+          "label":"Skilsmisse- eller separasjonsbevilling",
+          "verdiliste":[
+            {
+              "label":"harSendtInn",
+              "verdi":"Nei"
+            }
+          ]
+        },
+        {
+          "label":"Hva er grunnen til at du er alene med barn?",
+          "verdi":"Endring i samværsordning"
+        },
+        {
+          "label":"Erklæring om samlivsbrudd",
+          "verdiliste":[
+            {
+              "label":"harSendtInn",
+              "verdi":"Nei"
+            }
+          ]
+        },
+        {
+          "label":"Dato for samlivsbrudd",
+          "verdi":"03.10.2014"
+        },
+        {
+          "label":"Når flyttet dere fra hverandre?",
+          "verdi":"04.10.2014"
+        },
+        {
+          "label":"Når skjedde endringen / når skal endringen skje?",
+          "verdi":"17.04.2013"
         }
       ]
     },
     {
-      "label": "Sivilstandsplaner",
-      "verdiliste": [
+      "label":"Opphold i Norge",
+      "verdiliste":[
         {
-          "label": "Har du konkrete planer om å gifte deg eller bli samboer",
-          "verdi": "Ja"
+          "label":"Oppholder du deg i Norge?",
+          "verdi":"Ja"
         },
         {
-          "label": "Når skal dette skje?",
-          "verdi": "15.04.2021"
+          "label":"Har du bodd i Norge de siste tre årene?",
+          "verdi":"Ja"
         },
         {
-          "label": "Hvem skal du gifte deg eller bli samboer med?",
-          "verdiliste": [
+          "label":"Utenlandsopphold",
+          "verdiliste":[
             {
-              "label": "Navn",
-              "verdi": "Bob Burger"
+              "label":"Fra",
+              "verdi":"04.12.2012"
             },
             {
-              "label": "Fødselsdato",
-              "verdi": "18.02.1992"
+              "label":"Til",
+              "verdi":"18.12.2012"
+            },
+            {
+              "label":"I hvilket land oppholdt du deg?",
+              "verdi":"Spania"
+            },
+            {
+              "label":"Hvorfor bodde du i utlandet?",
+              "verdi":"Granca, Granca, Granca"
             }
           ]
         }
       ]
     },
     {
-      "label": "Barna dine",
-      "visningsVariant": "TABELL",
-      "verdiliste": [
+      "label":"Bosituasjonen din",
+      "verdiliste":[
         {
-          "label": "Barnets fulle navn, hvis dette er bestemt",
-          "verdi": "Sorgløs"
+          "label":"Deler du bolig med andre voksne?",
+          "verdi":"Ja, jeg har samboer og lever i et ekteskapslignende forhold"
         },
         {
-          "label": "Fødselsnummer",
-          "verdi": "03125462714"
-        },
-        {
-          "label": "Skal ha samme adresse",
-          "verdi": "Ja"
-        },
-        {
-          "label": "Ikke registrert på søkers adresse",
-          "verdi": "Nei"
-        },
-        {
-          "label": "Er barnet født?",
-          "verdi": "Nei"
-        },
-        {
-          "label": "Termindato",
-          "verdi": "16.05.2020"
-        },
-        {
-          "label": "Bekreftelse på ventet fødselsdato",
-          "verdiliste": [
+          "label":"Om samboeren din",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"Navn",
+              "verdi":"Bob Burger"
+            },
+            {
+              "label":"Fødselsdato",
+              "verdi":"18.02.1992"
             }
           ]
         },
         {
-          "label": "Barnets andre forelder",
-          "verdiliste": [
+          "label":"Når flyttet dere sammen?",
+          "verdi":"12.08.2018"
+        }
+      ]
+    },
+    {
+      "label":"Sivilstandsplaner",
+      "verdiliste":[
+        {
+          "label":"Har du konkrete planer om å gifte deg eller bli samboer",
+          "verdi":"Ja"
+        },
+        {
+          "label":"Når skal dette skje?",
+          "verdi":"15.04.2021"
+        },
+        {
+          "label":"Hvem skal du gifte deg eller bli samboer med?",
+          "verdiliste":[
             {
-              "label": "Hvorfor kan du ikke oppgi den andre forelderen?",
-              "verdi": "Fordi jeg ikke liker hen."
+              "label":"Navn",
+              "verdi":"Bob Burger"
+            },
+            {
+              "label":"Fødselsdato",
+              "verdi":"18.02.1992"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label":"Barna dine",
+      "visningsVariant":"TABELL",
+      "verdiliste":[
+        {
+          "label":"Barnets fulle navn, hvis dette er bestemt",
+          "verdi":"Sorgløs"
+        },
+        {
+          "label":"Fødselsnummer",
+          "verdi":"03125462714"
+        },
+        {
+          "label":"Skal ha samme adresse",
+          "verdi":"Ja"
+        },
+        {
+          "label":"Ikke registrert på søkers adresse",
+          "verdi":"Nei"
+        },
+        {
+          "label":"Er barnet født?",
+          "verdi":"Nei"
+        },
+        {
+          "label":"Termindato",
+          "verdi":"16.05.2020"
+        },
+        {
+          "label":"Bekreftelse på ventet fødselsdato",
+          "verdiliste":[
+            {
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Samvær",
-          "verdiliste": [
+          "label":"Barnets andre forelder",
+          "verdiliste":[
             {
-              "label": "Har den andre forelderen samvær med barnet",
-              "verdi": "Ja, men ikke mer enn vanlig samværsrett"
+              "label":"Hvorfor kan du ikke oppgi den andre forelderen?",
+              "verdi":"Fordi jeg ikke liker hen."
+            }
+          ]
+        },
+        {
+          "label":"Samvær",
+          "verdiliste":[
+            {
+              "label":"Har den andre forelderen samvær med barnet",
+              "verdi":"Ja, men ikke mer enn vanlig samværsrett"
             },
             {
-              "label": "Har dere skriftlig samværsavtale for barnet?",
-              "verdi": "Ja, men den beskriver ikke når barnet er sammen med hver av foreldrene"
+              "label":"Har dere skriftlig samværsavtale for barnet?",
+              "verdi":"Ja, men den beskriver ikke når barnet er sammen med hver av foreldrene"
             },
             {
-              "label": "Avtale om samvær",
-              "verdiliste": [
+              "label":"Avtale om samvær",
+              "verdiliste":[
                 {
-                  "label": "harSendtInn",
-                  "verdi": "Nei"
+                  "label":"harSendtInn",
+                  "verdi":"Nei"
                 }
               ]
             },
             {
-              "label": "Skal barnet bo hos deg",
-              "verdiliste": [
+              "label":"Skal barnet bo hos deg",
+              "verdiliste":[
                 {
-                  "label": "harSendtInn",
-                  "verdi": "Nei"
+                  "label":"harSendtInn",
+                  "verdi":"Nei"
                 }
               ]
             },
             {
-              "label": "Hvordan praktiserer dere samværet?",
-              "verdi": "Litt hver for oss"
+              "label":"Hvordan praktiserer dere samværet?",
+              "verdi":"Litt hver for oss"
             },
             {
-              "label": "Bor du og den andre forelderen til [barnets navn] i samme hus/blokk, gårdstun, kvartal eller vei?",
-              "verdi": "ja"
+              "label":"Bor du og den andre forelderen til [barnets navn] i samme hus/blokk, gårdstun, kvartal eller vei?",
+              "verdi":"ja"
             },
             {
-              "label": "Bor du og den andre forelderen til  i samme hus/blokk beskrivelse",
-              "verdi": "Ekstra info?"
+              "label":"Bor du og den andre forelderen til  i samme hus/blokk beskrivelse",
+              "verdi":"Ekstra info?"
             },
             {
-              "label": "Har du bodd sammen med den andre forelderen til [barnets fornavn] før?",
-              "verdi": "Ja"
+              "label":"Har du bodd sammen med den andre forelderen til [barnets fornavn] før?",
+              "verdi":"Ja"
             },
             {
-              "label": "Når flyttet dere fra hverandre?",
-              "verdi": "21.07.2018"
+              "label":"Når flyttet dere fra hverandre?",
+              "verdi":"21.07.2018"
             },
             {
-              "label": "Erklæring om samlivsbrudd",
-              "verdiliste": [
+              "label":"Erklæring om samlivsbrudd",
+              "verdiliste":[
                 {
-                  "label": "harSendtInn",
-                  "verdi": "Nei"
+                  "label":"harSendtInn",
+                  "verdi":"Nei"
                 }
               ]
             },
             {
-              "label": "Hvor mye er du sammen med den andre forelderen til barnet?",
-              "verdi": "Vi møtes også uten at barnet er til stede"
+              "label":"Hvor mye er du sammen med den andre forelderen til barnet?",
+              "verdi":"Vi møtes også uten at barnet er til stede"
             },
             {
-              "label": "Beskriv  hvor mye er du sammen med den andre forelderen til barnet?",
-              "verdi": "Vi sees stadig vekk"
+              "label":"Beskriv  hvor mye er du sammen med den andre forelderen til barnet?",
+              "verdi":"Vi sees stadig vekk"
             }
           ]
         }
       ]
     },
     {
-      "label": "Arbeid, utdanning og andre aktiviteter",
-      "verdiliste": [
+      "label":"Arbeid, utdanning og andre aktiviteter",
+      "verdiliste":[
         {
-          "label": "Hvordan er arbeidssituasjonen din?",
-          "verdi": "Jeg er hjemme med barn under 1 år\n\nJeg er i arbeid\n\nJeg er selvstendig næringsdrivende eller frilanser"
+          "label":"Hvordan er arbeidssituasjonen din?",
+          "verdi":"Jeg er hjemme med barn under 1 år\n\nJeg er i arbeid\n\nJeg er selvstendig næringsdrivende eller frilanser"
         },
         {
-          "label": "Om arbeidsforholdet ditt",
+          "label":"Om arbeidsforholdet ditt",
           "visningsVariant": "TABELL",
-          "verdiliste": [
+          "verdiliste":[
             {
-              "label": "Navn på arbeidsgiveren",
-              "verdi": "Palpatine"
+              "label":"Navn på arbeidsgiveren",
+              "verdi":"Palpatine"
             },
             {
-              "label": "Hvor mye jobber du?",
-              "verdi": "15"
+              "label":"Hvor mye jobber du?",
+              "verdi":"15"
             },
             {
-              "label": "Er stillingen fast eller midlertidig?",
-              "verdi": "Fast"
+              "label":"Er stillingen fast eller midlertidig?",
+              "verdi":"Fast"
             },
             {
-              "label": "Har du en sluttdato?",
-              "verdi": "Ja"
+              "label":"Har du en sluttdato?",
+              "verdi":"Ja"
             },
             {
-              "label": "Når skal du slutte?",
-              "verdi": "18.11.2020"
+              "label":"Når skal du slutte?",
+              "verdi":"18.11.2020"
             }
           ]
         },
         {
-          "label": "Om firmaet du driver",
-          "verdiliste": [
+          "label":"Om firmaet du driver",
+          "verdiliste":[
             {
-              "label": "Navn på firma",
-              "verdi": "Bobs burgers"
+              "label":"Navn på firma",
+              "verdi":"Bobs burgers"
             },
             {
-              "label": "Organisasjonsnummer",
-              "verdi": "987654321"
+              "label":"Organisasjonsnummer",
+              "verdi":"987654321"
             },
             {
-              "label": "Når etablerte du firmaet?",
-              "verdi": "05.04.2018"
+              "label":"Når etablerte du firmaet?",
+              "verdi":"05.04.2018"
             },
             {
-              "label": "Hvor mye jobber du?",
-              "verdi": "150"
+              "label":"Hvor mye jobber du?",
+              "verdi":"150"
             },
             {
-              "label": "Hvordan ser arbeidsuken din ut?",
-              "verdi": "Veldig tung"
+              "label":"Hvordan ser arbeidsuken din ut?",
+              "verdi":"Veldig tung"
             }
           ]
         },
         {
-          "label": "Om virksomheten du etablerer",
-          "verdiliste": [
+          "label":"Om virksomheten du etablerer",
+          "verdiliste":[
             {
-              "label": "Beskriv virksomheten",
-              "verdi": "Den kommer til å revolusjonere verden"
+              "label":"Beskriv virksomheten",
+              "verdi":"Den kommer til å revolusjonere verden"
             }
           ]
         },
         {
-          "label": "Når du er arbeidssøker",
-          "verdiliste": [
+          "label":"Når du er arbeidssøker",
+          "verdiliste":[
             {
-              "label": "Er du registrert som arbeidssøker hos NAV?",
-              "verdi": "Ja"
+              "label":"Er du registrert som arbeidssøker hos NAV?",
+              "verdi":"Ja"
             },
             {
-              "label": "Er du villig til å ta imot tilbud om arbeid eller arbeidsmarkedstiltak?",
-              "verdi": "Ja"
+              "label":"Er du villig til å ta imot tilbud om arbeid eller arbeidsmarkedstiltak?",
+              "verdi":"Ja"
             },
             {
-              "label": "Kan du begynne i arbeid senest én uke etter at du har fått tilbud om jobb?",
-              "verdi": "Ja"
+              "label":"Kan du begynne i arbeid senest én uke etter at du har fått tilbud om jobb?",
+              "verdi":"Ja"
             },
             {
-              "label": "Har du eller kan du skaffe barnepass senest innen en uke etter at du har fått tilbud om jobb eller arbeidsmarkedstiltak?",
-              "verdi": "Nei"
+              "label":"Har du eller kan du skaffe barnepass senest innen en uke etter at du har fått tilbud om jobb eller arbeidsmarkedstiltak?",
+              "verdi":"Nei"
             },
             {
-              "label": "Hvor ønsker du å søke arbeid?",
-              "verdi": "Kun i bodistriktet mitt, ikke mer enn 1 times reisevei"
+              "label":"Hvor ønsker du å søke arbeid?",
+              "verdi":"Kun i bodistriktet mitt, ikke mer enn 1 times reisevei"
             },
             {
-              "label": "Ønsker du å stå som arbeidssøker til minst 50% stilling?",
-              "verdi": "Ja"
+              "label":"Ønsker du å stå som arbeidssøker til minst 50% stilling?",
+              "verdi":"Ja"
             },
             {
-              "label": "Dokumentasjon - ikke villig til å ta import tilbud om arbeid",
-              "verdiliste": [
+              "label":"Dokumentasjon - ikke villig til å ta import tilbud om arbeid",
+              "verdiliste":[
                 {
-                  "label": "harSendtInn",
-                  "verdi": "Nei"
+                  "label":"harSendtInn",
+                  "verdi":"Nei"
                 }
               ]
             }
           ]
         },
         {
-          "label": "Utdanningen du skal ta",
-          "verdiliste": [
+          "label":"Utdanningen du skal ta",
+          "verdiliste":[
             {
-              "label": "Skole/utdanningssted",
-              "verdi": "UiO"
+              "label":"Skole/utdanningssted",
+              "verdi":"UiO"
             },
             {
-              "label": "Utdanning",
-              "verdiliste": [
+              "label":"Utdanning",
+              "verdiliste":[
                 {
-                  "label": "Linje/kurs/grad",
-                  "verdi": "Profesjonsstudium Informatikk"
+                  "label":"Linje/kurs/grad",
+                  "verdi":"Profesjonsstudium Informatikk"
                 },
                 {
-                  "label": "Når skal du være elev/student?",
-                  "verdi": "Fra 01.01.1999 til 01.10.2004"
+                  "label":"Når skal du være elev/student?",
+                  "verdi":"Fra 01.01.1999 til 01.10.2004"
                 }
               ]
             },
             {
-              "label": "Er utdanningen offentlig eller privat?",
-              "verdi": "Offentlig"
+              "label":"Er utdanningen offentlig eller privat?",
+              "verdi":"Offentlig"
             },
             {
-              "label": "Heltid, eller deltid",
-              "verdi": "Deltid"
+              "label":"Heltid, eller deltid",
+              "verdi":"Deltid"
             },
             {
-              "label": "Hvor mye skal du studere?",
-              "verdi": "300"
+              "label":"Hvor mye skal du studere?",
+              "verdi":"300"
             },
             {
-              "label": "Hva er målet med utdanningen?",
-              "verdi": "Økonomisk selvstendighet"
+              "label":"Hva er målet med utdanningen?",
+              "verdi":"Økonomisk selvstendighet"
             },
             {
-              "label": "Har du tatt utdanning etter grunnskolen?",
-              "verdi": "Ja"
+              "label":"Har du tatt utdanning etter grunnskolen?",
+              "verdi":"Ja"
             },
             {
-              "label": "Tidligere Utdanning",
-              "verdiliste": [
+              "label":"Tidligere Utdanning",
+              "verdiliste":[
                 {
-                  "label": "Linje/kurs/grad",
-                  "verdi": "Master Fysikk"
+                  "label":"Linje/kurs/grad",
+                  "verdi":"Master Fysikk"
                 },
                 {
-                  "label": "Når var du elev/student?",
-                  "verdi": "Fra januar 1999 til oktober 2004"
+                  "label":"Når var du elev/student?",
+                  "verdi":"Fra januar 1999 til oktober 2004"
                 }
               ]
             }
@@ -495,137 +495,137 @@
       ]
     },
     {
-      "label": "Mer om situasjonen din",
-      "verdiliste": [
+      "label":"Mer om situasjonen din",
+      "verdiliste":[
         {
-          "label": "Gjelder noe av dette deg?",
-          "visningsVariant": "PUNKTLISTE",
-          "verdi": "Barnet mitt er sykt\n\nJeg har søkt om barnepass, men ikke fått plass enda\n\nJeg har barn som har behov for særlig tilsyn på grunn av fysiske, psykiske eller store sosiale problemer",
-          "alternativer": "123 / 234 / 345"
+          "label":"Gjelder noe av dette deg?",
+          "visningsVariant" : "PUNKTLISTE",
+          "verdi":"Barnet mitt er sykt\n\nJeg har søkt om barnepass, men ikke fått plass enda\n\nJeg har barn som har behov for særlig tilsyn på grunn av fysiske, psykiske eller store sosiale problemer",
+          "alternativer":"123 / 234 / 345"
         },
         {
-          "label": "Legeerklæring",
-          "verdiliste": [
+          "label":"Legeerklæring",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Legeattest for egen sykdom eller sykt barn",
-          "verdiliste": [
+          "label":"Legeattest for egen sykdom eller sykt barn",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Avslag på søknad om barnehageplass, skolefritidsordning e.l.",
-          "verdiliste": [
+          "label":"Avslag på søknad om barnehageplass, skolefritidsordning e.l.",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Dokumentasjon av særlig tilsynsbehov",
-          "verdiliste": [
+          "label":"Dokumentasjon av særlig tilsynsbehov",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Dokumentasjon av studieopptak",
-          "verdiliste": [
+          "label":"Dokumentasjon av studieopptak",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Læringskontrakt",
-          "verdiliste": [
+          "label":"Læringskontrakt",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Når skal du starte i ny jobb?",
-          "verdi": "16.12.2045"
+          "label":"Når skal du starte i ny jobb?",
+          "verdi":"16.12.2045"
         },
         {
-          "label": "Dokumentasjon av jobbtilbud",
-          "verdiliste": [
+          "label":"Dokumentasjon av jobbtilbud",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         },
         {
-          "label": "Når skal du starte utdanningen?",
-          "verdi": "28.07.2025"
+          "label":"Når skal du starte utdanningen?",
+          "verdi":"28.07.2025"
         },
         {
-          "label": "Har du sagt opp jobben eller redusert arbeidstiden de siste 6 månedene?",
-          "verdi": "Ja, jeg har sagt opp jobben eller tatt frivillig permisjon (ikke foreldrepermisjon)"
+          "label":"Har du sagt opp jobben eller redusert arbeidstiden de siste 6 månedene?",
+          "verdi":"Ja, jeg har sagt opp jobben eller tatt frivillig permisjon (ikke foreldrepermisjon)"
         },
         {
-          "label": "Hvorfor sa du opp?",
-          "verdi": "Sjefen var dum"
+          "label":"Hvorfor sa du opp?",
+          "verdi":"Sjefen var dum"
         },
         {
-          "label": "Når sa du opp?",
-          "verdi": "12.01.2014"
+          "label":"Når sa du opp?",
+          "verdi":"12.01.2014"
         },
         {
-          "label": "Dokumentasjon av arbeidsforhold",
-          "verdiliste": [
+          "label":"Dokumentasjon av arbeidsforhold",
+          "verdiliste":[
             {
-              "label": "harSendtInn",
-              "verdi": "Nei"
+              "label":"harSendtInn",
+              "verdi":"Nei"
             }
           ]
         }
       ]
     },
     {
-      "label": "Når søker du stønad fra?",
-      "verdiliste": [
+      "label":"Når søker du stønad fra?",
+      "verdiliste":[
         {
-          "label": "Søke fra bestemt mnd",
-          "verdi": "Ja"
+          "label":"Søke fra bestemt mnd",
+          "verdi":"Ja"
         },
         {
-          "label": "Fra måned",
-          "verdi": "august"
+          "label":"Fra måned",
+          "verdi":"august"
         },
         {
-          "label": "Fra år",
-          "verdi": "2018"
+          "label":"Fra år",
+          "verdi":"2018"
         }
       ]
     },
     {
-      "label": "Vedlegg",
-      "visningsVariant": "VEDLEGG",
-      "verdiliste": [
+      "label":"Vedlegg",
+      "visningsVariant" : "VEDLEGG",
+      "verdiliste":[
         {
-          "label": "Vedlegg",
-          "verdi": "Dokumentasjon på at du er syk\n\nDokumentasjon på at du er syk\n\nDokumentasjon på at kan arbeide"
+          "label":"Vedlegg",
+          "verdi":"Dokumentasjon på at du er syk\n\nDokumentasjon på at du er syk\n\nDokumentasjon på at kan arbeide"
         }
       ]
     }
   ],
-  "pdfConfig": {
+  "pdfConfig" : {
     "harInnholdsfortegnelse": true,
     "språk": "NB"
   }
