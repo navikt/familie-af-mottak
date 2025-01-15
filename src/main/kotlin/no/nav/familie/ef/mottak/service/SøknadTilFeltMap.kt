@@ -139,15 +139,6 @@ object SøknadTilFeltMap {
                     }
                 return listOf(VerdilisteElement(entitet.label, visningsVariant = VisningsVariant.PUNKTLISTE.toString(), verdi = verdi, alternativer = entitet.alternativer?.joinToString(" / ")))
             }
-            if (entitet.label == "Vedlegg") {
-                return listOf(
-                    VerdilisteElement(
-                        entitet.label,
-                        verdiliste = list,
-                        visningsVariant = VisningsVariant.VEDLEGG.toString(),
-                    ),
-                )
-            }
             if (entitet.verdi is List<*>) {
                 val verdiliste = entitet.verdi as List<*>
 
